@@ -1,0 +1,402 @@
+/* 
+    项目：imqq首页
+    作者：杨富娟
+*/
+body{
+    color: #333333;
+}
+body,ul,li,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+/* 顶部导航 */
+.nav{
+    width: 80%;
+    height: 76px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+.nav .topside{
+    float: left;
+}
+.nav .topTool{
+    float: right;
+}
+
+#banner{
+    height: 809px;
+    background-color: pink;
+}
+h1.slogen{
+    height: 0px;
+    padding-top: 280px;
+    overflow: hidden;
+    background: url(../img/brand.png) no-repeat center top; 
+}
+/* 三张大图 */
+.bg{
+    height: 600px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.firstBg{
+    background-image: url(../img/bg1_1600.jpg);
+}
+
+.secondBg{
+    background-image: url(../img/avds.jpg);
+}
+
+.thirdBg{
+    background-image: url(../img/bg3_1600.jpg);
+}
+
+
+/* content1 */
+.qwrap{
+    height: 584px;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.connent .qtext{
+    width: 487px;
+    float: right;
+    padding-top: 115px;
+    padding-right: 7px;
+}
+.connent .qtext h2{
+    height: 0;
+    overflow: hidden;
+    padding-top: 135px;
+    background: url(../img/qcall_txt.png) no-repeat 0 0;
+}
+.connent .qtext p{
+    font-size: 18px;
+    opacity: 0.6;
+    letter-spacing: 0.12em;
+    text-align: right;
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", 'STXihei', 'STHeiti', 'Heiti', 'SimSun', sans-serif;
+    padding-bottom: 12px;
+}
+.connent .qtext .knowMore{
+    color: #12b7f5;
+    text-decoration: none;
+}
+.connent .qtext ul{
+    padding-top: 44px;
+    height: 77px;
+    background: url(../img/qcall_figs.png) no-repeat 191px 44px;
+}
+.connent .qtext ul li{
+    display: inline-block;
+    float: right;
+    padding-top: 58px; 
+    text-align: center;
+}
+.connent .qtext .ico1{
+    width: 80px;
+    border-left: 1px solid #e9e9e9;
+    text-align: right;
+}
+.connent .qtext .ico2{
+    width: 109px;
+    border-left: 1px solid #e9e9e9
+}
+.connent .qtext .ico3{
+    width: 156px;
+}
+.connent .qimg1{
+    position: absolute;
+    width: 664px;
+    height: 763px;
+    background: url(../img/pic1.png) no-repeat;
+    bottom: 0px;
+    left: 32px;
+}
+
+
+/* content2 */
+.qfile .qtext1{
+    width: 450px;
+    height: 359.6px;
+    float: left;
+    padding-top: 115px;
+    padding-left: 7px;
+}
+.qfile .qtext1 h2{
+    height: 0;
+    overflow: hidden;
+    padding-top: 140px;
+    background: url(../img/txt.png) no-repeat 0 0;
+}
+.qfile .qtext1 p{
+    font-size: 18px;
+    opacity: 0.6;
+    letter-spacing: 0.12em;
+    text-align: left;
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", 'STXihei', 'STHeiti', 'Heiti', 'SimSun', sans-serif;
+    padding-bottom: 12px;
+}
+.qfile .qtext1 .knowMore{
+    color: #12b7f5;
+    text-decoration: none;
+}
+.qfile .qtext1 ul{
+    padding-top: 44px;
+    height: 77px;
+    background: url(../img/qfile_figs.png) no-repeat 7px 44px;
+}
+.qfile .qtext1 ul li{
+    display: inline-block;
+    float: left;
+    padding-top: 58px; 
+    text-align: center;
+}
+.qfile .qtext1 .ico1{
+    width: 94px;
+    border-right: 1px solid #e9e9e9;
+    text-align: left;
+    text-indent: 12px;
+}
+.qfile .qtext1 .ico2{
+    width: 112px;
+    border-right: 1px solid #e9e9e9
+}
+.qfile .qtext1 .ico3{
+    width: 108px;
+}
+.qfile .qimg2{
+    position: absolute;
+    width: 597px;
+    height: 330px;
+    background: url(../img/pic2.png) no-repeat;
+    bottom: 104px;
+    right: -100px;
+}
+
+/* content3 */
+.qBlog .qtext{
+    width: 495px;
+    float: right;
+    padding-top: 120px;
+    padding-right: 7px;
+}
+.qBlog .qtext h2{
+    height: 0;
+    overflow: hidden;
+    padding-top: 135px;
+    background: url(../img/qblog_txt.png) no-repeat 0 0;
+}
+.qBlog .qtext p{
+    font-size: 18px;
+    opacity: 0.6;
+    letter-spacing: 0.12em;
+    text-align: right;
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", 'STXihei', 'STHeiti', 'Heiti', 'SimSun', sans-serif;
+    padding-bottom: 12px;
+}
+.qBlog .qtext .knowMore{
+    color: #12b7f5;
+    text-decoration: none;
+}
+.qBlog .qtext ul{
+    padding-top: 44px;
+    height: 77px;
+    background: url(../img/qblog_figs.png) no-repeat 228px 44px;
+}
+.qBlog .qtext ul li{
+    display: inline-block;
+    float: right;
+    padding-top: 58px; 
+    text-align: center;
+}
+.qBlog .qtext .ico1{
+    width: 80px;
+    border-left: 1px solid #e9e9e9;
+    text-align: right;
+}
+.qBlog .qtext .ico2{
+    width: 105px;
+    border-left: 1px solid #e9e9e9
+}
+.qBlog .qtext .ico3{
+    width: 106px;
+}
+.qBlog .qimg1{
+    position: absolute;
+    width: 344px;
+    height: 506px;
+    background: url(../img/pic3.png) no-repeat -30px 0;
+    bottom: 0px;
+    left: 88px;
+}
+.qBlog .blog{
+    position: relative;
+    left: 0px;
+    top: 217px;
+    width: 291px;
+    height: 150px;
+}
+.qBlog .blog div{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    left: 0;
+    right: 0;
+    transition: 1s;  
+}
+.qBlog .blog div:hover{
+    transform: rotate(360deg);
+}
+
+.qBlog .blog .pic1{
+    left: -122px;
+    background: url(../img/qblog_fig1.png) 0 0;
+}
+.qBlog .blog .pic2{
+    left: 70px;
+    background: url(../img/qblog_fig2.png) 0 0;
+}
+.qBlog .blog .pic3{
+    left: auto;
+    right: -119px;
+    background: url(../img/qblog_fig3.png) 0 0;
+}
+.qBlog .blog .init{
+    left: 70px;
+}
+.qBlog .blog .init.pic3{
+    right: 0;
+}
+
+
+
+.foot{
+    padding-top: 34px;
+    height: 348px;
+    background-color: #333333;
+    font-size: 14px;
+    color: #666666;
+}
+.foot .qmaps h3{
+    font-weight: normal;  
+}
+.foot .qmaps a{
+    color: #666666;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+.foot .qmaps{
+    width: 960px;
+    margin: 0 auto;
+}
+.foot .map{
+    float: left;
+}
+.foot .qmaps .plats h3{
+    height: 50px;
+}
+.foot .qmaps .map h3{
+    height: 25px;
+}
+.foot .qaq{
+    width: 185px;
+}
+.foot .qbzfk{
+    width: 175px;
+}
+.foot .qyqlj{
+    width: 80px;
+}
+
+
+
+
+.foot .qmaps .plats{
+    width: 510px;
+    height: 134px;
+    float: left;
+    padding-left: 8px;
+}
+
+
+
+
+
+
+
+.clearFixed::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+.foot .copyRight{
+    border-top: 1px solid #666666;
+    width: 960px;
+    padding-top: 16px;
+    clear: both;
+    color: #666666;
+    font-size: 0.75em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pg0{
+    width: 100%;
+}
+.topbar,.wrap,.content,.secondgb,.qfigure,.newfoot{
+    width: 100%;
+}
+.topbar{
+    height: 150px;
+}
+@media screen and (max-height: 750px) {
+    .topbar {
+        height: 75px;
+        border-bottom: 1px;
+    }
+}
+.wrap{
+    height: 600px;
+}
+.content{
+    height: 1464px;
+}
+.secondgb{
+    height: 600px;
+}
+.qfigure{
+    height: 584px;
+}
+.newfoot{
+    height: 348px;
+}
+
+
